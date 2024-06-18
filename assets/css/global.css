@@ -1,0 +1,74 @@
+/* Fonts */
+
+@font-face {
+  font-family: 'Roboto-Regular';
+  src: local('Roboto Regular'), local('Roboto-Regular'), 
+       url('~/assets/fonts/Roboto-Regular.ttf') format('truetype'),
+       url('~/assets/fonts/Roboto-Regular.woff') format('woff'),
+       url('~/assets/fonts/Roboto-Regular.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Roboto-Bold';
+  src: local('Roboto Bold'), local('Roboto-Bold'), 
+       url('~/assets/fonts/Roboto-Bold.ttf') format('truetype'),
+       url('~/assets/fonts/Roboto-Bold.woff') format('woff'),
+       url('~/assets/fonts/Roboto-Bold.woff2') format('woff2');
+}
+
+/* General */
+
+html, body {
+  font-family: 'Roboto-Regular';
+}
+
+.font-bold {
+  font-family: 'Roboto-Bold';
+  font-weight: normal;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+#__nuxt {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Tile width */
+
+:root {
+  --catalog-tile-width: 70lvw;
+
+  @media (min-width: 640px) {
+    --catalog-tile-width: 55lvw;
+  }
+
+  @media (min-width: 768px) {
+    --catalog-tile-width: 40lvw;
+  }
+
+  @media (min-width: 1024px) {
+    --catalog-tile-width: 35lvw;
+  }
+
+  @media (min-width: 1280px) {
+    --catalog-tile-width: 30lvw;
+  }
+
+  @media (min-width: 1536px) {
+    --catalog-tile-width: 25lvw;
+  }
+}
+
+/* Utils */
+
+.noScrollbar {
+  scrollbar-width: none;
+}
+
+.noScrollbar::-webkit-scrollbar {
+  display: none;
+}

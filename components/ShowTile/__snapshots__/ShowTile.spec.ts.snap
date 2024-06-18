@@ -1,0 +1,19 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`ShowTile > matches a snapshot 1`] = `
+"<nuxt-link to="/show/169" class="block no-underline">
+  <div class="_container_41e777 relative shrink-0 flex p-3 gap-3 bg-color-tile-background/[0.8] rounded overflow-hidden">
+    <div class="flex grow gap-3 overflow-hidden">
+      <div class="_imageWrapper_41e777 relative h-full shrink-0 bg-color-canvas-background rounded overflow-hidden"><img src="https://static.tvmaze.com/uploads/images/medium_portrait/501/1253519.jpg" class="_image_41e777" alt="Breaking Bad"></div>
+      <section class="min-w-0">
+        <div>
+          <h3 class="font-bold">Breaking Bad</h3>
+        </div>
+        <div class="flex gap-2 items-center"><i class="pi pi-trophy"></i>9.2</div>
+        <div class="flex gap-2 items-center"><i class="pi pi-globe"></i>English</div>
+        <div class="flex gap-2 items-center"><i class="pi pi-calendar"></i>2008</div>
+      </section>
+    </div>
+  </div>
+</nuxt-link>"
+`;
